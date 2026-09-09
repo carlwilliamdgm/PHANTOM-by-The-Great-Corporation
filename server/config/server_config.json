@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "udp_port": 8888,
+    "websocket_port": 8889,
+    "bluetooth_port": 8887,
+    "usb_port": 8890
+  },
+  "gamepad": {
+    "emulation_type": "xbox360",
+    "vibration_enabled": true,
+    "deadzone_left": 0.1,
+    "deadzone_right": 0.1
+  },
+  "keyboard_mouse": {
+    "enabled": true,
+    "sensitivity": 1.0
+  },
+  "connection": {
+    "max_clients": 4,
+    "reconnect_interval": 5,
+    "timeout": 30
+  }
+}
